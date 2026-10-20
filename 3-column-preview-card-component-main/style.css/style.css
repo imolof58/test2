@@ -1,0 +1,83 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height: 100%;width: 100%;font-size: 100%;line-height: 1;font-size: 14px;-ms-text-size-adjust: 100%;-moz-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+body{
+	font-family:"Lexend Deca",sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	min-height: 100vh;}
+.block_row{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 500px;
+	width: 921px;}
+.block{
+	color: white;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);}
+.heading{
+	color: white;
+	padding: 40px 0 0 0;
+	font-size: 40px;
+	font-weight: bold;
+    font-family: "Big Shoulders Display",sans-serif;}
+.element1{
+	padding:48px 48px 48px  48px ;
+	border-radius: 10px 0 0 10px;
+	height: 100%;
+	width: 38.38%;
+	flex: 1 1 auto;
+	background-color: #E28625;}
+.element2{
+	padding:48px 48px 48px  48px ;
+	height: 100%;
+	width: 38.38%;
+	flex: 1 1 auto;
+	background-color: #006971;}
+.element3{
+	padding:48px 48px 48px  48px ;
+	border-radius: 0 10px 10px 0;
+	height: 100%;
+	width: 38.38%;
+	flex: 1 1 auto;
+	background-color: #004140;}
+.block_content{
+	padding: 24px 0 0 0;
+	opacity: 75%;
+	line-height: 165%;
+}
+.button{
+	margin: 30% 0 0 0;
+	width: 147px;
+	height: 48px;
+	border-radius: 24px;}
+.button1{color:#E28625}
+.button2{color:#006971}
+.button3{color:#004140}
+@media (max-width: 960px) {
+	.block_row {width: 608px;height: 1173px;flex-direction: column;justify-content: flex-start;align-items: center;margin-top: 20px;}
+	.block{width: 608px;}
+	.button{margin:10% 0 0 0}
+	.element1{border-radius: 10px 10px 0 0;}
+	.element3{border-radius: 0 0 10px 10px;}}
+@media (max-width: 431px) {
+		.block_row {width: 327px;height:1326px ;flex-direction: column;justify-content: flex-start;align-items: center;margin-top: 20px;}
+		.block{width:327px;}
+		.button{margin:10% 0 0 0}
+		.element1{border-radius: 10px 10px 0 0;}
+		.element3{border-radius: 0 0 10px 10px;}}
